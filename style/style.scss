@@ -1,0 +1,322 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    padding: 15px;
+}
+
+body {
+    position: relative;
+    background: repeating-linear-gradient(145deg,
+        #FFFEFA,
+        #FFFEFA 2px,
+        #F6EFE9 2px,
+        #F6EFE9 6px);
+}
+
+/* NAVBAR */
+
+.dubleborder {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.hi {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+li a {
+    font-size: 2rem;
+}
+
+.pos {
+    position: absolute;
+    z-index: 100;
+    top: -38px;
+    left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.text-right a:hover {
+    color: black;
+    text-shadow: 1px 1px 1.5px;
+    text-decoration: none;
+
+}
+
+.brd .wdf:hover,
+.brd .wdf1:hover {
+    border: 4px solid #F6EFE9;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.object {
+   width: 100%;
+   height: 600px;;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+.obef {
+    object-position: left;
+    object-fit: cover;
+    
+    
+}
+h2 {
+
+    color: rgb(218, 211, 205);
+    text-shadow: 2px 2px 2px;
+}
+
+.pic_style {
+    object-fit: cover;
+    object-position: center;
+}
+.cake_border {
+    border-left: 1px solid black;
+    height: 100%;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    
+}
+.cake_border1 {
+    height: 100%;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.color_cake {
+    background-color: #F6EFE9;
+}
+.cake {
+    height: 100px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 30px 30px 0 0;
+    overflow: hidden;
+    position: relative;
+}
+.cake_log {
+    position: absolute;
+    z-index: 1000;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.rund {
+    border-radius: 10px 10px 0 0;
+    border: 1px solid black;
+}
+.rund2 {
+    
+    display: flex;
+   justify-content: flex-start;
+   width: 5px; height: 0; border-top: 10px solid yellow!important; border-right: 5px solid white!important;
+}
+
+.cake2 {
+    height: 70px;
+    width: 140px;
+
+    
+    overflow: hidden;
+}
+.wdf {
+    height: 20%;
+    width: 100%;
+    background: #F6EFE9;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.wdf1 {
+    height: 20%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.wdf p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.wdf1 p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.brd {
+    border: 4px dashed #F6EFE9;
+    
+}
+
+.brd1 {
+    border: 4px solid #F6EFE9;
+}
+
+.brd2 {
+    border-top: 4px dashed #F6EFE9;
+}
+
+i {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.fc {
+    color: white;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.cup {
+    opacity: .4;
+}
+
+
+/* .fe-pulse {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: 0;
+  } */
+a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.tp {
+    background: white;
+    position: relative;
+
+}
+
+#gh:hover #fe-pulse {
+    animation-name: pulse;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+
+}
+
+
+
+h1 {
+    color: blue;
+}
+
+
+@media (max-width: 1200px) {
+
+    a {
+        font-size: 1.2rem;
+    }
+
+   
+}
+@media (max-width: 800px) {
+    .pos {
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 2s ease-in-out;
+    }
+    .wdf2 {
+        text-align: center;
+    }
+    .hi {
+        height: 400px;
+    }
+    #gh:hover #fe-pulse {
+    animation: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .hi {
+        height: 300px;
+    }
+
+    .fa-arrow-up {
+        display:  none;
+    }
+h2 {
+    font-size: 2.1rem!important;
+}
+h3 {
+    font-size: 1.2rem!important;
+}
+.cent {
+    text-align:center;
+}
+
+    .small {
+        display: none;
+    }
+
+    .fixm {
+        padding: 0 !important;
+    }
+
+    .fab {
+        font-size: 1.1rem;
+
+    }
+   
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+
+    17% {
+        transform: scale(1.1);
+    }
+
+    34% {
+        transform: scale(0.8);
+    }
+
+    51% {
+        transform: scale(1.1);
+    }
+
+    68% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
