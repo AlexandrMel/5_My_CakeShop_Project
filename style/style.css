@@ -56,7 +56,7 @@ a {
 
 .brd .wdf:hover,
 .brd .wdf1:hover {
-  font-size: 2rem;
+  border: 1px solid black;
 }
 
 .brd .wdf:hover a,
